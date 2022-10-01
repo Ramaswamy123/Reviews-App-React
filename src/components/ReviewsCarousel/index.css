@@ -1,0 +1,63 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  text-align: center;
+}
+
+.review-heading {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.profile-image {
+  height: 60px;
+  width: 60px;
+}
+
+.user-name {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.company-name {
+  color: black;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+
+.description {
+  color: black;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.arrow {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
